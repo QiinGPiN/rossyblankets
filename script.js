@@ -12,6 +12,15 @@ const products = [
     {name: "Luxury Blanket", price: "Ksh 2500", img: "assets/p1 (31).jpg"},
     {name: "Soft Warm Blanket", price: "Ksh 2000", img: "assets/p1 (58).jpg"},
     {name: "Premium Fleece Blanket", price: "Ksh 3000", img: "assets/p1 (51).jpg"},
+    
+const divider = document.createElement("div");
+divider.style.textAlign = "center";
+divider.style.color = "#ff0000";        // bold red
+divider.style.fontSize = "20px";        // visible but not huge
+divider.style.margin = "30px 0";
+divider.style.fontFamily = "'Courier New', monospace"; // gothic feel
+divider.style.textShadow = "0 0 10px #ff0000, 0 0 20px #ff5555"; // glow effect
+divider.innerHTML = "🦇═══ R O S S Y  B L A N K E T S ═══🦇";
 
 {img:"assets/p1 (1).jpg"},
 {img:"assets/p1 (2).jpg"},
