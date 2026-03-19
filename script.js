@@ -101,13 +101,6 @@ const products = [
 products.forEach(p => {
     let div = document.createElement("div");
     div.classList.add("product");
-
-    const name=p.name||"Luxury Blanket";
-    const price=p.price||"Ksh 2500";
-    const name=p.name||"Soft Warm Blanket";
-    const price=p.price||"Ksh 2000";
-    const name=p.name||"Premium Fleece Blanket";
-    const price=p.price||"Ksh 3000";
     
     div.innerHTML = `
         <img src="${p.img}">
