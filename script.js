@@ -7,8 +7,6 @@ const closeBtn = document.querySelector(".close");
 
 const phone = "254711321125";
 
-
-
 // PRODUCTS
 const products = [
     {name: "Luxury Blanket", price: "Ksh 2500", img: "assets/p1 (31).jpg"},
