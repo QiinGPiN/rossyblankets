@@ -1,9 +1,4 @@
-const container = document.getElementById("imageContainer");
-const modal = document.getElementById("checkoutModal");
-const productName = document.getElementById("productName");
-const productPrice = document.getElementById("productPrice");
-const confirmBtn = document.getElementById("confirmOrder");
-const closeBtn = document.querySelector(".close");
+
 
 const phone = "254711321125";
 
