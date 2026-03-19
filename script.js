@@ -1,26 +1,13 @@
-
+const container = document.getElementById("imageContainer");
+const modal = document.getElementById("checkoutModal");
+const productName = document.getElementById("productName");
+const productPrice = document.getElementById("productPrice");
+const confirmBtn = document.getElementById("confirmOrder");
+const closeBtn = document.querySelector(".close");
 
 const phone = "254711321125";
 
-products.forEach(product => {
-  const img = document.createElement("img");
-  img.src = "assets/" + product.img;
-  container.appendChild(img);
 
-  // Check if name exists
-  if(product.name) {
-    const name = document.createElement("p");
-    name.textContent = product.name;
-    container.appendChild(name);
-  }
-
-  // Check if price exists
-  if(product.price) {
-    const price = document.createElement("p");
-    price.textContent = product.price;
-    container.appendChild(price);
-  }
-});
 
 // PRODUCTS
 const products = [
